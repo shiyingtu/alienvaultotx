@@ -12,13 +12,13 @@
 [comment]: # "either express or implied. See the License for the specific language governing permissions"
 [comment]: # "and limitations under the License."
 [comment]: # ""
-  
-**OTX Pulses**  
+
+**OTX Pulses**
 Every action returns the OTX Pulses associated with the given domain, IP, file, or URL. **Pulses**
 provide you with a summary of the threat, a view into the software targeted, and the related
 indicators of compromise (IOCs) that can be used to detect the threats. Pulses make it easier for
 you to see if your environment is exposed to a threat, if a threat is relevant to your organization,
-who is behind a threat, and what a threat may be targeting in your environment.  
+who is behind a threat, and what a threat may be targeting in your environment.
 IOCs include:
 
 -   IP addresses

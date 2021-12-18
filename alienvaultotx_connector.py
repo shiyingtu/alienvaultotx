@@ -17,17 +17,18 @@
 # without a valid written license from Splunk Inc. is PROHIBITED.# -----------------------------------------
 # Phantom sample App Connector python file
 # Phantom App imports
+import ipaddress
+import json
+
 import phantom.app as phantom
 import phantom.utils as utils
-from phantom.base_connector import BaseConnector
+import requests
+from bs4 import BeautifulSoup
 from phantom.action_result import ActionResult
+from phantom.base_connector import BaseConnector
 
 from alienvaultotx_consts import *
 
-import requests
-import json
-import ipaddress
-from bs4 import BeautifulSoup
 # from OTXv2 import OTXv2
 # from OTXv2 import InvalidAPIKey
 # from OTXv2 import BadRequest
@@ -414,8 +415,9 @@ class AlienvaultOtxv2Connector(BaseConnector):
 
 if __name__ == '__main__':
 
-    import pudb
     import argparse
+
+    import pudb
 
     pudb.set_trace()
 
